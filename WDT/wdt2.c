@@ -1,3 +1,5 @@
+#include <xc.h>
+
 #pragma config FWDTEN = ON, WDTPS = PS1024
 
 #define WDT_Clr()   { WDTCONbits.WDTCLR=1; WDTCONbits.WDTCLR=0; }
